@@ -5,6 +5,9 @@ These modules were written with intention to produce an auto csv->json & csv->xm
 
 Simple kickstart:
 
+Make sure to install these dependencies through pip:
+	1. dicttoxml
+
 1. open your terminal (or CMD)
 2. navigate to the files directory. You should find 4 python package files named:
 	a. main.py (main converter)
