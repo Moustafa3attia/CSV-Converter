@@ -29,8 +29,9 @@ You'll get a pretty report that walks through some unit tests I've made myself
 You'll get prettified report walking along the CSV file and saving each row to both a new "new.json" and a new "new.xml" files those will be generated once you run this command.
 
 Please be informed that running this command more than once will append (in a proper way) to these files so just don't manipulate them manually as this case is not handled.
+Also, be informed that this program only supports conversion to json/xml extensions for output and number/string validation for data types.
 
-Also, feel free to play with the cmd line arguments sent through the main program run. Everything hopefully is handled.
+Feel free to play with the command line arguments sent through the main program run. Hopefully, everything is handled.
 
 Best Regards,
 Moustafa Attia,
