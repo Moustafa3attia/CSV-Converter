@@ -1,0 +1,40 @@
+Hey there!
+
+This is Moustafa Attia, author of these modules.
+These modules were written with intention to produce an auto csv->json & csv->xml file converter.
+
+Simple kickstart:
+
+1. open your terminal (or CMD)
+2. navigate to the files directory. You should find 4 python package files named:
+	a. main.py (main converter)
+	b. helperModule.py (has some helper functions. I didn't have enough time to make optimal use of these functions but I have intention to complete and re-push)
+	c. dataSavingModule.py (has saving/file validation functions those form the second phase of the system)
+	d. unitTestModule.py (has unit testing functions. Also, I'm yet to fully test functions such as helperModule functions but we'll get to that in another version)
+	e. testFile.json (don't touch as this is made for unit testing purpose)
+	f. testFile.xml (don't touch as this is made for unit testing purpose)
+	g. transactions.csv (don't touch as this is made for unit testing & sample running purpose)
+	h. and finally this README file
+
+3. Now, as you navigated successfully to here, you would want to run unit tests using this command:
+
+>> python unitTestModule.py
+
+You'll get a pretty report that walks through some unit tests I've made myself
+
+4. Now as you made sure functions work properly, you would want to run actual program (on our target transactions.csv file):
+
+>> python main.py transactions.csv string string number string
+
+You'll get prettified report walking along the CSV file and saving each row to both a new "new.json" and a new "new.xml" files those will be generated once you run this command.
+
+Please be informed that running this command more than once will append (in a proper way) to these files so just don't manipulate them manually as this case is not handled.
+
+Also, feel free to play with the cmd line arguments sent through the main program run. Everything hopefully is handled.
+
+Best Regards,
+Moustafa Attia,
+You got to my git account so you can figure out my contact info for more information.
+
+ATTENTION !!!
+This program/modules are all made exclusively for my own usage till I announce the open-sourcing. Using them in your project/business without informing me is considered bla bla bla xD. It's open-source don't worry :D.
